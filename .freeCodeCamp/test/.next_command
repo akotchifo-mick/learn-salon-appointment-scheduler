@@ -176,3 +176,4 @@ sed 's/1000/10000/' -i /home/codeally/project/.freeCodeCamp/test/utils.js
 ./salon.sh
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
